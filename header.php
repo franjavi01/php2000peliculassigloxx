@@ -33,7 +33,7 @@
                     </ul>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Décadas
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Décadas</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Años del cine mudo</a></li>
                         <li><a class="dropdown-item" href="#">Años 30</a></li>
@@ -44,17 +44,16 @@
                         <li><a class="dropdown-item" href="#">Años 80</a></li>
                         <li><a class="dropdown-item" href="#">Siglo XXI</a></li>
                     </ul>
-                </a>
+                
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Biografías
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Biografías</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Directores</a></li>
                         <li><a class="dropdown-item" href="#">Actores</a></li>
                         <li><a class="dropdown-item" href="#">Actrices</a></li>
                         <li><a class="dropdown-item" href="#">Otras Biografías</a></li>
                     </ul>
-                </a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Sagas</a>
