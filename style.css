@@ -1,0 +1,15 @@
+.nav-item, .nav-link {
+    
+    color: white;
+    font-weight: bold;
+    
+}
+
+.nav-item:hover {
+    background: #47e84f;
+    color: #0693e3;
+}
+
+.bi-search {
+    color: white;
+}
