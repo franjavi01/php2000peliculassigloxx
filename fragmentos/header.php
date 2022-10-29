@@ -15,7 +15,7 @@
         <ul class="nav">
             <li class="nav-item">   
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="index.php">
                         <img src="./assets/logo.webp" alt="Logo" width="30px" height="30px" class="d-inline-block align-text-center">
                     </a>
                 </div>
@@ -33,7 +33,7 @@
                     </ul>
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Décadas</a>
+                <a class="nav-link dropdown-toggle" href="decadas.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">Décadas</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Años del cine mudo</a></li>
                         <li><a class="dropdown-item" href="#">Años 30</a></li>
@@ -47,7 +47,7 @@
                 
             </li>
             <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Biografías</a>
+                <a class="nav-link dropdown-toggle" href="biografias.php" role="button" data-bs-toggle="dropdown" aria-expanded="false">Biografías</a>
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="#">Directores</a></li>
                         <li><a class="dropdown-item" href="#">Actores</a></li>
@@ -56,13 +56,13 @@
                     </ul>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Sagas</a>
+                <a class="nav-link" href="sagas.php">Sagas</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">2000 canciones siglo XX</a>
+                <a class="nav-link" href="https://2000cancionessigloxx.com/">2000 canciones siglo XX</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="#">Tienda AMAZON</a>
+                <a class="nav-link" href="https://tienda.2000peliculassigloxx.com/">Tienda AMAZON</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
