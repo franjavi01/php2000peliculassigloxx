@@ -8,4 +8,29 @@
 <p>A lo largo del siglo XX el invento se fue perfeccionando con el sonido y el color. Ahora el cine es considerado un arte más como la pintura, la escultura o la literatura. Más precisamente es el séptimo arte.
 
 <p>Disfruta de esta web de cine clásico y recuerda nuestro lema: <span style="font-weight: bold">“Si eres amante del cine clásico este es tu sitio”</span></p>
+
+<div class="container-fluid">
+    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-4">
+        <?php
+        $conexion = mysqli_connect("localhost", "root", "", "php2000peliculassigloxx");
+        if (!$conexion) {
+            echo "error al conectar con la base de datos";
+        }
+         $sql = "SELECT * FROM cardsindex";
+         $resultSet = mysqli_query($conexion,$sql);
+        while($row=mysqli_fetch_row($resultSet)){
+            ?>
+        <div class="col">
+            <a href="<?php echo $row[1] ?>" target="_blank" rel="noopener noreferrer">
+            <div class="card"><img class="card-img-top" src="<?php echo $row[2] ?>" alt="<?php echo $row[3] ?>">
+                <div class="card-body">
+                    <center><h2 class="card-text"><strong><?php echo $row[4] ?></strong></h2></center>
+                    <p class="card-text"><?php echo $row[5] ?></p>
+            </div>
+        </div>
+    </div>
+
+<?php } ?>
+</div>
+</div>
 <?php include 'fragmentos/footer.php' ?>
