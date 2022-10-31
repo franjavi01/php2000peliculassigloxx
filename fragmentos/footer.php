@@ -1,7 +1,7 @@
 <nav class="navbar navbar-dark bg-primary justify-content-center">
     <ul class="nav">
         <li class="nav-item">
-            <a class="nav-link" href="#">Aviso legal, de privacidad y de cookies</a>
+            <a class="nav-link" href="./legal.php">Aviso legal, de privacidad y de cookies</a>
         </li>
     </ul>
 </nav>
