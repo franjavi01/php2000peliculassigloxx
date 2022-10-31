@@ -2,6 +2,7 @@
 
 * {
     font-family: 'Montserrat', sans-serif;
+    background-color: aquamarine;
 }
 
 .nav-item, .nav-link {
@@ -16,4 +17,29 @@
 
 .bi-search {
     color: white;
+}
+
+.card {
+	color: #0b789c;
+    width: 25em;
+    margin-left: 2em;
+}
+
+.card-img-top {
+	align-self: center;
+	margin-top: 1%;
+	width: 99%;
+	max-height: 12em;
+	
+}
+
+a {
+    text-decoration: none;
+}
+
+.card:hover {
+	transform: scale(1.2);
+	background-color: #47e84f;
+	color: white;
+/* 	text-decoration: none; */
 }
