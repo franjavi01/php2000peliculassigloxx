@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.nav-item, .nav-link {
+    color: white;
+    font-weight: bold;
+}
+
+.nav-item:hover {
+    background: #47e84f;
+    color: #0693e3;
+}
+
+.bi-search {
+    color: white;
+}
+
+.card-img-top {
+	align-self: center;
+	margin-top: 1%;
+	width: 99%;
+	max-height: 12em;
+	
+}
+
+a {
+    text-decoration: none;
+}
+
+.card:hover {
+	transform: scale(1.2);
+	background-color: #47e84f;
+	color: white;
+
+}
+
+.decadasText {
+    color:blue;
+    background-color: black;
+}
+

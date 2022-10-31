@@ -20,15 +20,16 @@
          $resultSet = mysqli_query($conexion,$sql);
         while($row=mysqli_fetch_row($resultSet)){
             ?>
+        <a href="<?php echo $row[1] ?>" target="_blank" rel="noopener noreferrer">
         <div class="col">
-            <a href="<?php echo $row[1] ?>" target="_blank" rel="noopener noreferrer">
             <div class="card"><img class="card-img-top" src="<?php echo $row[2] ?>" alt="<?php echo $row[3] ?>">
                 <div class="card-body">
+                
                     <center><h2 class="card-text"><strong><?php echo $row[4] ?></strong></h2></center>
                     <p class="card-text"><?php echo $row[5] ?></p>
+                </div>
             </div>
         </div>
-    </div>
 
 <?php } ?>
 </div>
