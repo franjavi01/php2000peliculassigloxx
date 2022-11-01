@@ -4,15 +4,12 @@
     font-family: 'Montserrat', sans-serif;
 }
 
-.primer-parrafo {
-    margin-top: 5em;
-}
-
 .menu-principal {
-    position: fixed;
-    top: 1;
+    position: sticky;
+    top: 0;
     width: 100%;
-    margin-bottom: 1%;
+    z-index: 1;
+    margin-bottom: 1em;
 }
 
 .nav-item, .nav-link {
