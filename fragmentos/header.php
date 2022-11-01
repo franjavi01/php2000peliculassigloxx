@@ -11,7 +11,7 @@
 </head>
 <body>
     <img src="./assets/cabecera.jpg" class="container-fluid" alt="cabecera">
-    <nav class="navbar navbar-dark bg-primary">
+    <nav class="menu-principal navbar navbar-dark bg-primary">
         <ul class="nav">
             <li class="nav-item">   
                 <div class="container-fluid">

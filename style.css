@@ -4,6 +4,17 @@
     font-family: 'Montserrat', sans-serif;
 }
 
+.primer-parrafo {
+    margin-top: 5em;
+}
+
+.menu-principal {
+    position: fixed;
+    top: 1;
+    width: 100%;
+    margin-bottom: 1%;
+}
+
 .nav-item, .nav-link {
     color: white;
     font-weight: bold;
@@ -45,5 +56,5 @@ a {
 
 .decadasText {
     color:blue;
-    background-color: red;
+    background-color: green;
 }
