@@ -37,11 +37,13 @@ a {
 
 }
 
-.decadasText {
-    color:blue;
-    background-color: black;
-}
+
 
 .legal {
     font-size: 10px;
+}
+
+.decadasText {
+    color:blue;
+    background-color: red;
 }
