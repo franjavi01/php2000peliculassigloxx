@@ -45,8 +45,6 @@ a {
 
 }
 
-
-
 .legal {
     font-size: 10px;
 }
@@ -54,4 +52,13 @@ a {
 .decadasText {
     color:blue;
     background-color: green;
+}
+
+.dark {
+    position: fixed;
+    top: 2;
+    width: 100%;
+    z-index: 2;
+    margin-bottom: 1em;
+    padding-left: 90%;
 }
