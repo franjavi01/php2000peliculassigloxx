@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
-    <link rel="stylesheet" href="./style4.css">
+    <link rel="stylesheet" href="./CSS/style.css">
     <link rel="shortcut icon" href="./assets/logo.webp" type="image/x-icon">
     <title>2000 películas siglo xx</title>
 </head>
@@ -68,7 +68,7 @@
             <li class="nav-item">
                 <a class="nav-link" href="#">Contacto</a>
             </li>
-            <button>
+            <button class="diaBtn">
     <div class="form-check" onclick="dia()">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
       <label class="form-check-label" for="flexRadioDefault1">
@@ -78,7 +78,7 @@
       </label>
     </div>
 </button>
-<button>
+<button class="nocheBtn">
     <div class="form-check" onclick="noche()">
 
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">

@@ -64,3 +64,15 @@ a {
     padding-left: 90%;
 }
 
+.diaBtn {
+    border: none;
+    background-color: white;
+    color: black
+}
+
+.nocheBtn {
+    border: none;
+    background-color: black;
+    color: white;
+}
+
