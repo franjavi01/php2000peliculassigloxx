@@ -1,5 +1,4 @@
-<div class="dark">
-  <button>
+<button class="diaBtn">
     <div class="form-check" onclick="dia()">
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
       <label class="form-check-label" for="flexRadioDefault1">
@@ -8,7 +7,8 @@
         </svg>
       </label>
     </div>
-
+</button>
+<button class="nocheBtn">
     <div class="form-check" onclick="noche()">
 
       <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
@@ -20,5 +20,4 @@
 
     </div>
   </button>
-</div>
 
