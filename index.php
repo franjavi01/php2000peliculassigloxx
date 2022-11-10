@@ -1,3 +1,4 @@
+<?php include 'fragmentos/head.php' ?>
 <?php include 'fragmentos/header.php' ?>
 
 
